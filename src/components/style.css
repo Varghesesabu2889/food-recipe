@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkgray;
+}
+.heading h1{
+    color:black;
+    font-size: 48px;
+    font-weight: 1200;
+    letter-spacing: 1px;
+    padding-top: 2rem;
+    text-align: center;
+    text-shadow: 3px 6px gray;
+    font-family: cursive;
+}
+.heading h3{
+color:black;
+text-align: center;
+font-family: cursive;
+}
+.searchBox{
+    text-align: center;
+    margin: 3rem;
+}
+.search-bar{
+    width: 400px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 0.3rem 1rem;
+    background-color: lightgray;
+}
+.search-bar placeholder{
+    color: black;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+width: 300px;
+height: 400px;
+margin: 1.5rem;
+background-color: darkkhaki;
+border-radius: 8px;
+box-shadow: 0 7px 12px rgba(189, 183, 107, 0.756);
+overflow: auto;
+box-sizing: border-box;
+position: relative;
+}
+.card img{
+    width: 100%;
+}
+.card .info h2{
+    margin: 0;
+    font-weight: 900;
+    margin-top: 15px;
+}
+.card .info p{
+    margin: 0;
+    font-size: 17px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+.card::before{
+    height: 100%;
+}
+.card:hover{
+    background: chocolate;
+}
+.card .recipe{
+    position: absolute;
+    top:0;
+    left: 0;
+    text-align: justify;
+    padding: 0.5rem 1rem;
+    display: none;
+    transition: 0.2s all;
+}
+.card:hover .recipe{
+    display: block;
+}
+.recipe h2{
+    margin-bottom: 10px;
+}
+.recipe img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.recipe p{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.recipe a{
+    display: block;
+    text-align: center;
+}
+.notFound{
+    font-size: 60px;
+    font-family: cursive;
+    color: black;
+}
+.btn{
+    font-size: 20px;
+    background-color:green;
+    color: white;
+    height: 40px;
+    width: 90px;
+    border-radius: 20px;
+}
+.watch{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+}
+.head2{
+    font-family: cursive;
+    color: white;
+}
